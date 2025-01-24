@@ -4,7 +4,6 @@ import cors from "cors";
 import morgan from "morgan";
 import db from "./src/services/db.js";
 
-
 const app = express();
 
 db();

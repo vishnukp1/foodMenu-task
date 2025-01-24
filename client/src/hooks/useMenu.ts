@@ -37,9 +37,9 @@ export const useGetItems = (): UseGetItemsReturn => {
         setBrunchCocktails(
           data.filter((item) => item.category === "BRUNCH COCKTAILS")
         );
-      } catch (error: any) {
+      } catch (error:any) {
         console.error("Error fetching items:", error);
-        setError(error);
+        setError(error)
       }
     };
 
