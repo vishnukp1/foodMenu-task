@@ -33,12 +33,12 @@ const Header: React.FC = () => {
             <span className="text-[#857878]">SOFT</span>
           </div>
         </div>
-        <div className="hidden md:flex space-x-8 lg:mr-36  mt-10 text-white">
+        <div className="hidden md:flex md:space-x-6 md:w-[1000px] xl:w-auto  xl:space-x-8 lg:mr-36  md:ml-20   mt-10 text-white">
           {menuItems.map((item) => (
             <a
               key={item.label}
               href={item.link}
-              className="text-[1rem] font-light tracking-widest hover:text-[#0796EF] transition duration-300"
+              className="lg:text-[1rem] font-light tracking-widest hover:text-[#0796EF] transition duration-300"
             >
               {item.label}
             </a>

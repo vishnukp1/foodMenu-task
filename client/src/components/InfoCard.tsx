@@ -22,13 +22,13 @@ const InfoCard: React.FC<InfoCardProps> = ({
           <img
             src={logo}
             alt="Logo"
-            className="absolute top-[-40px] left-[9rem] lg:left-[8rem] xl:left-[9rem]"
+            className="absolute top-[-40px] left-[9rem] lg:left-[8rem] sm:left-[5rem]  xl:left-[9rem]"
           />
         </div>
       )}
 
       <div className="relative h-[49px]">
-        <div className="absolute top-[35px] left-[6rem] lg:left-[5rem]  xl:left-[6rem]">
+        <div className="absolute top-[35px] left-[6rem] lg:left-[4rem] sm:left-[1rem]  xl:left-[6rem]">
           {logo && (
             <div className="text-[2rem] font-normal">
               <span className="text-[#0796EF]">DEEP</span>

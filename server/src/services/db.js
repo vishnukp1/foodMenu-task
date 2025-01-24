@@ -1,7 +1,7 @@
-import mongoose from 'mongoose';
-import dotenv from 'dotenv';
+import mongoose from "mongoose";
+import dotenv from "dotenv";
 
-dotenv.config(); 
+dotenv.config();
 
 const db = async () => {
   try {
@@ -9,7 +9,8 @@ const db = async () => {
     console.log("MongoDB connected successfully");
   } catch (error) {
     console.error("MongoDB connection error:", error);
-    process.exit(1); t
+    process.exit(1);
+    t;
   }
 };
 
