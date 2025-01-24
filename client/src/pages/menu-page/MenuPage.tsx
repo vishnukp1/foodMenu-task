@@ -86,7 +86,7 @@ const MenuPage: FC = () => {
             <img
               src={LEFT_BG_IMAGE}
               alt="Left Background"
-              className="absolute top-0  lg:right-[900px] md:right-[650px] h-full z-[1] object-cover hidden  md:block"
+              className="absolute top-0  lg:right-[900px] xl:right-[1410px] md:right-[650px] h-full z-[1] object-cover hidden  md:block"
             />
             <img
               src={RIGHT_BG_IMAGE}
@@ -94,7 +94,7 @@ const MenuPage: FC = () => {
               className="absolute top-0 xs:right-[1px] sm:right-[0rem] h-full z-[1] object-cover hidden md:block"
             />
 
-            {/*  showing the cards of drinks,BRUNCH COCKTAILS, HookahFlavor*/}
+            {/*  showing the cards of drinks,BRUNCH COCKTAILS, food*/}
 
             {activeTab === "Food" && <MenuCard data={food} title="FOOD" />}
 

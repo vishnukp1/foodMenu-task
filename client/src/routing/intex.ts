@@ -1,4 +1,3 @@
-import routes  from './routes';
-import { homePath } from './route.constant';
+import routes from "./routes";
 
-export { routes, homePath };
+export { routes };
