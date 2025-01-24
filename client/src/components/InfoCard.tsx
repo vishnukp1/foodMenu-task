@@ -45,7 +45,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
         </div>
       </div>
 
-      <div className="flex-col justify-center text-white -mt-6">
+      <div className="flex-col justify-center text-white -mt-6 mr-2 sm:mr-auto">
         <h2 className="text-[#0796EF] text-[1rem] font-semibold">{title}</h2>
         <div className="text-[1rem]">{content}</div>
       </div>
