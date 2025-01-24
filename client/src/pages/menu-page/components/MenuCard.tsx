@@ -49,11 +49,10 @@ const MenuCard: FC<MenuCardProps> = ({ data, title }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:px-10 pb-10 ">
           {data.map((category) => (
             <div key={category._id}>
-              <div className="flex items-center py-2 px-4 rounded-md">
-                <p className="text-lg md:text-2xl text-white uppercase mr-2 flex-shrink-0">
+              <div className="flex justify-between items-center py-2 px-4 rounded-md">
+                <p className="text-lg sm:text-2xl text-white uppercase">
                   {category.title}
                 </p>
-
                 <p className="text-lg font-medium text-white">
                   ${category.price}
                 </p>
