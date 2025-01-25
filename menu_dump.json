@@ -1,0 +1,19 @@
+[{
+    "title": "Grilled Chicken Sandwiche",
+    "category": "FOOD",
+    "price": 12,
+    "menuItems": ["Grilled Chicken", "Sandwich Bread", "Lettuce", "Tomato"]
+},
+{
+    "title": "Mango Mojito",
+    "category": "DRINKS",
+    "price": 14,
+    "menuItems": ["Mango", "Mint", "Soda", "Lime"]
+  },
+  {
+    "title": "Iced Latte",
+    "category": "DRINKS",
+    "price": 6,
+    "menuItems": ["Espresso", "Milk", "Ice"]
+  }
+]

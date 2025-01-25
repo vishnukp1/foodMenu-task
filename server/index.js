@@ -6,7 +6,7 @@ import db from "./src/services/db.js";
 
 const app = express();
 
-db();
+db(); 
 
 app.use(express.json());
 
