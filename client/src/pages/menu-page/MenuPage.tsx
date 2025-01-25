@@ -28,7 +28,7 @@ const MenuPage: FC = () => {
           <div className="absolute inset-0 flex flex-col justify-center items-center h-full">
             <div className="text-center mb-2">
               <h2
-                className="text-white font-bold md:text-5xl lg:text-[75px] xs:text-[40px]"
+                className="text-white font-bold md:text-5xl lg:text-[75px] text-[40px]"
                 style={{ textShadow: "4px 3px #800020" }}
               >
                 MENU
